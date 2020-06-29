@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudserver/pom.xml" />
+        <option value="$PROJECT_DIR$/service-01/pom.xml" />
+        <option value="$PROJECT_DIR$/service02/pom.xml" />
+        <option value="$PROJECT_DIR$/service-provice-01/pom.xml" />
+        <option value="$PROJECT_DIR$/client/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-server/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-client/pom.xml" />
+        <option value="$PROJECT_DIR$/fouter/pom.xml" />
+        <option value="$PROJECT_DIR$/book-server/pom.xml" />
+        <option value="$PROJECT_DIR$/first-router/pom.xml" />
+        <option value="$PROJECT_DIR$/book/pom.xml" />
+        <option value="$PROJECT_DIR$/sale/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-test/pom.xml" />
+        <option value="$PROJECT_DIR$/db/pom.xml" />
+        <option value="$PROJECT_DIR$/dbService/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-second-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-third-consumer/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

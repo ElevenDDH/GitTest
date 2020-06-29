@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Chat</title>
+	<style type="text/css">
+		body {
+			max-width: 500px;
+			margin: auto;
+			padding: 1em;
+			background: grey;
+			color: white;
+			font: 16px/1.6 menlo monospace;
+		}
+	</style>
+	<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+</head>
+<body>
+	<p>
+		<b>Hi, {{user}} !</b>
+	</p>
+	<p>
+		message:
+		<input type="text" name="msg" id="in" value="" placeholder="">
+	</p>
+	<pre id="out">
+	</pre>
+
+	<script type="text/javascript">
+		$('#in').keyup((e) =>{
+			if(e.which == 13){
+				let data = {
+					'msg':$('#in').val()
+				}
+				$.post('/chat', data)
+				// 输入框值设置为空
+				$('#in').val('')
+			}
+		})
+
+		function sse(){
+			let evtSource = new EventSource('/msg')
+			evtSource.onmessage = function(e){
+				let origin_msg = $('#out').html()
+				let new_msg = `${e.data}\n${origin_msg}`
+				$('#out').html(new_msg)
+			}
+		}
+
+		sse()
+	</script>
+</body>
+</html>
