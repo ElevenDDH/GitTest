@@ -1,0 +1,14 @@
+Server: Tengine
+Content-Type: application/json
+X-Powered-By: PHP/7.2.6
+Cache-Control: no-cache
+X-Ratelimit-Limit: 1000000
+X-Ratelimit-Remaining: 999898
+Date: Wed, 12 Aug 2020 11:39:40 GMT
+Ali-Swift-Global-Savetime: 1597232380
+Via: cache20.l2cn2618[189,200-0,M], cache23.l2cn2618[190,0], kunlun10.cn1241[203,200-0,M], kunlun8.cn1241[205,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-Savetime: Wed, 12 Aug 2020 11:39:40 GMT
+X-Swift-Cachetime: 0
+Timing-Allow-Origin: *
+Eagleid: 74cf71a615972323800142309e

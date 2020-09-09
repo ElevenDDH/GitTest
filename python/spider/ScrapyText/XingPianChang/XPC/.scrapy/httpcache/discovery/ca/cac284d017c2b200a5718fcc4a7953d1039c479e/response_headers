@@ -1,0 +1,16 @@
+Server: Tengine
+Content-Type: application/json
+X-Powered-By: PHP/7.2.6
+Cache-Control: no-cache
+X-Ratelimit-Limit: 1000000
+X-Ratelimit-Remaining: 34012
+Date: Thu, 06 Aug 2020 09:54:44 GMT
+Ali-Swift-Global-Savetime: 1596707684
+Via: cache6.l2cn1812[148,404-1280,M], cache47.l2cn1812[149,0], kunlun7.cn1361[216,404-1280,M], kunlun8.cn1361[218,0]
+X-Swift-Error: orig response 4XX error
+X-Swift-Error: orig response 4XX error
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-Savetime: Thu, 06 Aug 2020 09:54:44 GMT
+X-Swift-Cachetime: 0
+Timing-Allow-Origin: *
+Eagleid: b706e79c15967076844691423e
